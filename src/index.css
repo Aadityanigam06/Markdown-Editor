@@ -27,11 +27,13 @@ textarea {
   border: 5px solid #c50404;
   padding: 10px;
   box-sizing: border-box;
+  
 }
 
 .preview-container {
   border: 5px solid #c50404;
   padding: 10px;
+  margin-left: 10px;
 }
 
 button {
@@ -40,12 +42,12 @@ button {
   padding: 10px;
   border: 2px solid black;
   cursor: pointer;
+  margin: 10px;
 
 }
 button:hover{
   background-color: rgba(212, 255, 0, 0.767);
 }
-.button-container {
-  display: flex;
-  gap: 10px; /* Adjust the space between buttons */
+h2 {
+  text-align: center;
 }
